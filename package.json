@@ -1,0 +1,35 @@
+{
+  "name": "@dwlib/base64-encoding",
+  "version": "1.0.0",
+  "description": "Base64 Encoding",
+  "main": "lib/index.js",
+  "exports": {
+    "require": "./lib/index.js",
+    "import": "./lib/index.mjs"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwlib-js/base64-encoding.git"
+  },
+  "keywords": [
+    "base64",
+    "encoding",
+    "decoding"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwlib-js/base64-encoding/issues"
+  },
+  "homepage": "https://github.com/dwlib-js/base64-encoding#readme",
+  "dependencies": {
+    "@dwlib/abstract": "^1.0.2",
+    "@dwlib/internal-slots": "^1.0.0",
+    "@dwlib/primordials": "^1.0.2",
+    "@dwlib/utf8": "^1.0.3"
+  }
+}
